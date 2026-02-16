@@ -1,0 +1,1 @@
+This is the readme for the Central Illinois Angels website repository. While this project is open - and open-source for other Angel Investment groups to leverage the code from this repo in building their site, the contents, verbiage, copy, and images herein are copyright, belonging to Central Illinois Angels, unless otherwise stated.
