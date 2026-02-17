@@ -13,7 +13,10 @@
     <div class="container">
       <a href="../index.html" class="logo">
         <div class="logo-icon">CIA</div>
-        Central Illinois Angels
+        <div class="logo-text">
+          <span class="logo-top">Central Illinois</span>
+          <span class="logo-bottom">Angels</span>
+        </div>
       </a>
       <nav class="nav" id="mainNav">
         <a href="../index.html" class="nav-link">Home</a>
@@ -43,9 +46,9 @@
           </div>
         </div>
         <a href="contact.html" class="nav-link">Contact Us</a>
-        <a href="funding-application.html" class="btn-apply-nav">Apply For Funding</a>
+        <a href="funding-application.html" class="btn-apply-nav">Apply for Funding</a>
       </nav>
-      <button class="hamburger" id="hamburger" onclick="document.getElementById('mainNav').classList.toggle('open')">
+      <button class="hamburger" onclick="document.getElementById('mainNav').classList.toggle('open')">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -55,105 +58,401 @@
   <section class="hero hero-inner">
     <div class="hero-bg" style="background: linear-gradient(135deg, #1B2A4A 0%, #243656 100%);"></div>
     <div class="hero-content">
-      <span class="hero-badge">Our Investments</span>
-      <h1>Portfolio Companies</h1>
-      <p>Discover the innovative companies we've partnered with across Central Illinois and beyond.</p>
+      <span class="hero-badge">Fueling Growth</span>
+      <h1>Our Portfolio</h1>
+      <p>We invest in ambitious founders building the future across diverse industries including logistics, medtech, and enterprise software.</p>
     </div>
   </section>
 
   <!-- Portfolio Grid -->
   <section class="section section-light">
     <div class="container">
-      <div class="section-header">
-        <span class="label">Current Portfolio</span>
-        <h2>Companies We've Invested In</h2>
-        <p>Our portfolio spans multiple industries, from technology and healthcare to agriculture and manufacturing.</p>
-      </div>
       <div class="portfolio-grid">
+
+        <!-- Intellihot -->
         <div class="portfolio-card">
-          <div class="portfolio-card-image">TC</div>
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">In</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">CleanTech</span>
+            <h3>Intellihot</h3>
+            <p>Intelligent tankless water heaters that are 40% more energy-efficient.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2011</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Lucigen -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Lu</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Biotech</span>
+            <h3>Lucigen</h3>
+            <p>DNA cloning, sequencing, amplification, and protein expression. Acquired by Biosearch Technologies.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2011</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- BrightWater Medical -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Br</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">MedTech</span>
+            <h3>BrightWater Medical</h3>
+            <p>Groundbreaking stent manufacturing technology. Acquired by Merit Medical Systems.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2012</span>
+          </div>
+        </div>
+
+        <!-- Gearbox Express -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Ge</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Renewable Energy</span>
+            <h3>Gearbox Express</h3>
+            <p>Wind turbine gearbox remanufacturing services. Only NA company focused on down-tower remanufacturing.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2013</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Autonomic Materials -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Au</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Material Science</span>
+            <h3>Autonomic Materials</h3>
+            <p>Self-healing coatings and materials technology.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2013</span>
+          </div>
+        </div>
+
+        <!-- Endotronix -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">En</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">MedTech</span>
+            <h3>Endotronix</h3>
+            <p>Digital health and medtech company dedicated to improving heart failure management. Exited July 2024.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2014</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Epsilon Imaging -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Ep</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">MedTech</span>
+            <h3>Epsilon Imaging</h3>
+            <p>Advanced cardiac imaging software for better heart function analysis.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2014</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Tiesta Tea -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Ti</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Consumer Products</span>
+            <h3>Tiesta Tea</h3>
+            <p>Premium loose-leaf tea company offering a wide variety of natural, flavorful blends.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2015</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Respiratory Motion -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Re</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">MedTech</span>
+            <h3>Respiratory Motion</h3>
+            <p>Medical device company focused on respiratory monitoring.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2015</span>
+          </div>
+        </div>
+
+        <!-- Natural Fiber Welding -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Na</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Material Science</span>
+            <h3>Natural Fiber Welding</h3>
+            <p>Material science company producing sustainable, high-performance materials from plants.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2016</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Personify -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Pe</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Software</span>
+            <h3>Personify</h3>
+            <p>Advanced technology for video conferencing and virtual backgrounds.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2016</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- NovaScan -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">No</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">MedTech</span>
+            <h3>NovaScan</h3>
+            <p>Innovative medical device company focused on cancer detection technology.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2016</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Serionix -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Se</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">CleanTech</span>
+            <h3>Serionix</h3>
+            <p>Advanced air purification technology using color-changing filters (Colorfil brand).</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2017</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Aker Technologies -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Ak</span>
+            <span class="portfolio-card-exit">EXIT</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">AgTech</span>
+            <h3>Aker Technologies</h3>
+            <p>Agricultural technology using computer vision and machine learning. Relocated to St. Louis.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2017</span>
+          </div>
+        </div>
+
+        <!-- Euphrates Vascular -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Eu</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">MedTech</span>
+            <h3>Euphrates Vascular</h3>
+            <p>Medical device company developing innovative vascular access solutions.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2018</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- TADA -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">TA</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Enterprise Software</span>
+            <h3>TADA</h3>
+            <p>Intelligent digital platform providing business analytics and supply chain visibility.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2018</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Valqari -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Va</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Logistics</span>
+            <h3>Valqari</h3>
+            <p>Building the universal standard for drone delivery infrastructure with secure, automated drone stations.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2019</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- SNOOZ -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">SN</span>
+          </div>
+          <div class="portfolio-card-body">
+            <span class="tag">Consumer Electronics</span>
+            <h3>SNOOZ</h3>
+            <p>Smart white noise machine designed to help people sleep better.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2019</span>
+            <a href="#" class="visit-link">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Azumo -->
+        <div class="portfolio-card">
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Az</span>
+          </div>
           <div class="portfolio-card-body">
             <span class="tag">Technology</span>
-            <h3>TechCo Solutions</h3>
-            <p>Enterprise SaaS platform providing workflow automation solutions for mid-market businesses in the Midwest.</p>
+            <h3>Azumo</h3>
+            <p>Innovative display technology company creating ultra-thin, low-power screens.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2019</span>
+            <a href="#" class="visit-link">Visit Website</a>
           </div>
         </div>
+
+        <!-- Ascent -->
         <div class="portfolio-card">
-          <div class="portfolio-card-image">AG</div>
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">As</span>
+          </div>
           <div class="portfolio-card-body">
-            <span class="tag">Agriculture</span>
-            <h3>AgriGrow Innovations</h3>
-            <p>Precision agriculture technology utilizing IoT sensors and data analytics to optimize crop yields.</p>
+            <span class="tag">Industrial Tech</span>
+            <h3>Ascent</h3>
+            <p>Industrial technology solutions for manufacturing optimization.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2020</span>
+            <a href="#" class="visit-link">Visit Website</a>
           </div>
         </div>
+
+        <!-- Main St Commons -->
         <div class="portfolio-card">
-          <div class="portfolio-card-image">MH</div>
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Ma</span>
+          </div>
           <div class="portfolio-card-body">
-            <span class="tag">Healthcare</span>
-            <h3>MedHealth Connect</h3>
-            <p>Telehealth platform connecting rural communities with specialist healthcare providers across Illinois.</p>
+            <span class="tag">Real Estate</span>
+            <h3>Main St Commons</h3>
+            <p>Mixed-use development bringing vibrant living spaces to downtown communities.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2020</span>
+            <a href="#" class="visit-link">Visit Website</a>
           </div>
         </div>
+
+        <!-- Gross-Wen Technologies -->
         <div class="portfolio-card">
-          <div class="portfolio-card-image">CL</div>
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Gr</span>
+          </div>
           <div class="portfolio-card-body">
-            <span class="tag">Clean Energy</span>
-            <h3>CleanLight Energy</h3>
-            <p>Developing next-generation solar panel technology with improved efficiency for commercial installations.</p>
+            <span class="tag">CleanTech</span>
+            <h3>Gross-Wen Technologies</h3>
+            <p>Algae-based technology for wastewater treatment and sustainable agriculture products.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2020</span>
+            <a href="#" class="visit-link">Visit Website</a>
           </div>
         </div>
+
+        <!-- SparkLearn -->
         <div class="portfolio-card">
-          <div class="portfolio-card-image">MP</div>
+          <div class="portfolio-card-header">
+            <span class="portfolio-card-initials">Sp</span>
+          </div>
           <div class="portfolio-card-body">
-            <span class="tag">Manufacturing</span>
-            <h3>MidPro Manufacturing</h3>
-            <p>Advanced manufacturing solutions using 3D printing and automation for aerospace component production.</p>
+            <span class="tag">EdTech</span>
+            <h3>SparkLearn</h3>
+            <p>AI-powered learning platform that personalizes education for students.</p>
+          </div>
+          <div class="portfolio-card-footer">
+            <span class="invested">Invested: 2021</span>
+            <a href="#" class="visit-link">Visit Website</a>
           </div>
         </div>
-        <div class="portfolio-card">
-          <div class="portfolio-card-image">EL</div>
-          <div class="portfolio-card-body">
-            <span class="tag">Education</span>
-            <h3>EduLearn Platform</h3>
-            <p>AI-powered adaptive learning platform designed for K-12 school districts in underserved areas.</p>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Stats -->
-  <section class="stats-bar">
+  <!-- Sponsors -->
+  <section class="partners-section">
     <div class="container">
-      <div class="stats-grid">
-        <div class="stat-item">
-          <h3>25+</h3>
-          <p>Companies Funded</p>
-        </div>
-        <div class="stat-item">
-          <h3>$5M+</h3>
-          <p>Total Invested</p>
-        </div>
-        <div class="stat-item">
-          <h3>6</h3>
-          <p>Industry Sectors</p>
-        </div>
-        <div class="stat-item">
-          <h3>85%</h3>
-          <p>Still Operating</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="cta-section">
-    <div class="container">
-      <h2>Want to Join Our Portfolio?</h2>
-      <p>We're always looking for innovative companies with strong growth potential in the Central Illinois region.</p>
-      <div class="cta-buttons">
-        <a href="funding-application.html" class="btn btn-primary">Apply for Funding</a>
-        <a href="process-overview.html" class="btn btn-outline">View Our Process</a>
+      <p class="partners-label">Our Sponsors</p>
+      <div class="partners-grid">
+        <div class="partner-logo">Sponsor 1</div>
+        <div class="partner-logo">Sponsor 2</div>
+        <div class="partner-logo">Sponsor 3</div>
       </div>
     </div>
   </section>
@@ -165,31 +464,25 @@
         <div class="footer-brand">
           <div class="logo">
             <div class="logo-icon">CIA</div>
-            Central Illinois Angels
+            <div class="logo-text">
+              <span class="logo-top">Central Illinois</span>
+              <span class="logo-bottom">Angels</span>
+            </div>
           </div>
-          <p>Connecting visionary entrepreneurs with experienced investors to fuel innovation across Central Illinois.</p>
-          <div class="footer-social">
-            <a href="#">Li</a><a href="#">Tw</a><a href="#">Fb</a>
-          </div>
+          <p>A member-managed angel investment organization fueling innovation in Central Illinois.</p>
+          <div class="footer-address">801 W Main St, Suite A216<br>NEXT Innovation Center<br>Peoria, IL 61606</div>
+          <a href="mailto:info@centralillinoisangels.com" class="footer-email">info@centralillinoisangels.com</a>
         </div>
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <h4>Navigation</h4>
           <a href="../index.html">Home</a>
           <a href="portfolio.html">Portfolio</a>
-          <a href="mission-vision.html">About Us</a>
-          <a href="contact.html">Contact</a>
-        </div>
-        <div class="footer-col">
-          <h4>Entrepreneurs</h4>
-          <a href="funding-application.html">Apply for Funding</a>
-          <a href="resources.html">Resources</a>
+          <a href="funding-application.html">Funding Application</a>
           <a href="process-overview.html">Process Overview</a>
-        </div>
-        <div class="footer-col">
-          <h4>Investors</h4>
+          <a href="mission-vision.html">Vision &amp; Mission</a>
+          <a href="management.html">Management</a>
           <a href="membership.html">Membership</a>
-          <a href="investor-resources.html">Investor Resources</a>
-          <a href="#">Investor Login</a>
+          <a href="contact.html">Contact Us</a>
         </div>
       </div>
       <div class="footer-bottom">
