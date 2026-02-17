@@ -2037,6 +2037,196 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--red);
 }
 
+/* ---------- Investment Focus Page ---------- */
+.portfolio-bar-list {
+  max-width: 600px;
+}
+
+.portfolio-bar-item {
+  margin-bottom: 16px;
+}
+
+.portfolio-bar-item .bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.portfolio-bar {
+  height: 12px;
+  background: var(--gray-200);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.portfolio-bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  background: var(--navy);
+}
+
+.investment-range-display {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.range-item {
+  text-align: center;
+}
+
+.range-item h3 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.range-item p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+/* ---------- Membership Page v2 ---------- */
+.membership-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-200);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  padding-left: 28px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.benefits-list li::before {
+  content: '\2713';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.requirements-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.requirement-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+}
+
+.requirement-card h3 {
+  font-size: 1.05rem;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.requirement-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* ---------- Member Login Page ---------- */
+.portal-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--gray-200);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.portal-card h2 {
+  font-size: 1.4rem;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.portal-card p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.portal-features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  max-width: 500px;
+  margin: 32px auto 0;
+}
+
+.portal-feature {
+  text-align: center;
+}
+
+.portal-feature h3 {
+  font-size: 1rem;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+
+.portal-feature p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+/* ---------- Investor Resources v2 ---------- */
+.investor-article {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 32px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+}
+
+.investor-article h3 {
+  font-size: 1.15rem;
+  color: var(--navy);
+  margin-bottom: 12px;
+}
+
+.investor-article p {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* ---------- Contact Simple ---------- */
+.contact-simple {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* ---------- Additional Responsive ---------- */
 @media (max-width: 1024px) {
   .resource-type-grid {
@@ -2066,6 +2256,19 @@ h1, h2, h3, h4, h5, h6 {
   }
   .criteria-grid {
     grid-template-columns: 1fr;
+  }
+  .membership-two-col {
+    grid-template-columns: 1fr;
+  }
+  .requirements-grid {
+    grid-template-columns: 1fr;
+  }
+  .portal-features {
+    grid-template-columns: 1fr;
+  }
+  .investment-range-display {
+    flex-direction: column;
+    gap: 24px;
   }
 }
 

@@ -42,11 +42,11 @@
           <div class="dropdown-menu">
             <a href="membership.html">Membership</a>
             <a href="investor-resources.html">Investor Resources</a>
-            <a href="#" class="disabled">Investor Login</a>
+            <a href="member-login.html">Member Login</a>
           </div>
         </div>
         <a href="contact.html" class="nav-link active">Contact Us</a>
-        <a href="funding-application.html" class="btn-apply-nav">Apply For Funding</a>
+        <a href="funding-application.html" class="btn-apply-nav">Apply for Funding</a>
       </nav>
       <button class="hamburger" onclick="document.getElementById('mainNav').classList.toggle('open')">
         <span></span><span></span><span></span>
@@ -58,103 +58,44 @@
   <section class="hero hero-inner">
     <div class="hero-bg" style="background: linear-gradient(135deg, #1B2A4A 0%, #243656 100%);"></div>
     <div class="hero-content">
-      <span class="hero-badge">Get In Touch</span>
+      <span class="hero-badge">Get in Touch</span>
       <h1>Contact Us</h1>
-      <p>Have questions? We'd love to hear from you. Reach out to our team.</p>
+      <p>Central Illinois Angels is a member-managed angel investment organization.</p>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact Form -->
   <section class="section section-light">
     <div class="container">
-      <div class="contact-grid">
-        <!-- Contact Info -->
-        <div>
-          <h2 style="font-size: 1.6rem; color: var(--navy); margin-bottom: 8px;">Get In Touch</h2>
-          <p style="color: var(--text-muted); margin-bottom: 32px; line-height: 1.7;">Whether you're an entrepreneur looking for funding, an investor interested in membership, or just want to learn more about what we do, we're here to help.</p>
-
-          <div class="contact-info-card">
-            <div class="icon">&#128205;</div>
-            <div>
-              <h4>Office Address</h4>
-              <p>201 N. Main Street, Suite 400<br>Bloomington, IL 61701</p>
-            </div>
+      <div class="contact-simple">
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 32px; text-align: center;">To get in touch with us, please fill out the form below.</p>
+        <form>
+          <div class="form-group">
+            <label>First Name</label>
+            <input type="text" placeholder="First Name" required>
           </div>
-          <div class="contact-info-card">
-            <div class="icon">&#128231;</div>
-            <div>
-              <h4>Email</h4>
-              <p>info@centralilangels.com</p>
-            </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Email" required>
           </div>
-          <div class="contact-info-card">
-            <div class="icon">&#128222;</div>
-            <div>
-              <h4>Phone</h4>
-              <p>(309) 555-0100</p>
-            </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="Subject" required>
           </div>
-          <div class="contact-info-card">
-            <div class="icon">&#128337;</div>
-            <div>
-              <h4>Office Hours</h4>
-              <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday &amp; Sunday: Closed</p>
-            </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Message" required></textarea>
           </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div>
-          <div style="background: var(--white); border-radius: 12px; padding: 36px; box-shadow: 0 2px 4px rgba(0,0,0,0.08); border: 1px solid var(--gray-200);">
-            <h3 style="font-size: 1.3rem; color: var(--navy); margin-bottom: 24px;">Send Us a Message</h3>
-            <form>
-              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
-                <div class="form-group">
-                  <label>First Name *</label>
-                  <input type="text" placeholder="John" required>
-                </div>
-                <div class="form-group">
-                  <label>Last Name *</label>
-                  <input type="text" placeholder="Doe" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label>Email Address *</label>
-                <input type="email" placeholder="john@example.com" required>
-              </div>
-              <div class="form-group">
-                <label>Phone Number</label>
-                <input type="tel" placeholder="(555) 000-0000">
-              </div>
-              <div class="form-group">
-                <label>Subject *</label>
-                <select required>
-                  <option value="">Select a topic</option>
-                  <option>Funding Inquiry</option>
-                  <option>Membership Information</option>
-                  <option>Partnership Opportunity</option>
-                  <option>Media Inquiry</option>
-                  <option>General Question</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label>Message *</label>
-                <textarea placeholder="Tell us how we can help..." required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
-            </form>
-          </div>
-        </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+        </form>
       </div>
     </div>
   </section>
 
-  <!-- Map -->
-  <section class="section section-white" style="padding-top: 0;">
-    <div class="container">
-      <div class="map-placeholder">
-        &#128205; Map - 201 N. Main Street, Bloomington, IL 61701
-      </div>
+  <!-- Sponsors -->
+  <section class="section section-white" style="padding: 32px 0;">
+    <div class="container" style="text-align: center;">
+      <p style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Our Sponsors</p>
     </div>
   </section>
 

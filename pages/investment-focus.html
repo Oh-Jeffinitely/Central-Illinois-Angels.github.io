@@ -42,11 +42,11 @@
           <div class="dropdown-menu">
             <a href="membership.html">Membership</a>
             <a href="investor-resources.html">Investor Resources</a>
-            <a href="#" class="disabled">Investor Login</a>
+            <a href="member-login.html">Member Login</a>
           </div>
         </div>
         <a href="contact.html" class="nav-link">Contact Us</a>
-        <a href="funding-application.html" class="btn-apply-nav">Apply For Funding</a>
+        <a href="funding-application.html" class="btn-apply-nav">Apply for Funding</a>
       </nav>
       <button class="hamburger" onclick="document.getElementById('mainNav').classList.toggle('open')">
         <span></span><span></span><span></span>
@@ -58,151 +58,79 @@
   <section class="hero hero-inner">
     <div class="hero-bg" style="background: linear-gradient(135deg, #1B2A4A 0%, #243656 100%);"></div>
     <div class="hero-content">
-      <span class="hero-badge">About Us</span>
+      <span class="hero-badge">What We Look For</span>
       <h1>Investment Focus</h1>
-      <p>Understanding our investment strategy, target industries, and what we look for in potential investments.</p>
-    </div>
-  </section>
-
-  <!-- Strategy -->
-  <section class="section section-white">
-    <div class="container">
-      <div class="two-col">
-        <div class="two-col-text">
-          <span class="label">Our Approach</span>
-          <h2>Our Investment Strategy</h2>
-          <p>Central Illinois Angels focuses on early-stage companies that demonstrate strong growth potential, capable leadership teams, and a clear path to market. We invest in businesses that align with our regional strengths and where our members can add meaningful value beyond capital.</p>
-          <p>Our investments typically range from $50,000 to $500,000 per deal, with the ability to participate in follow-on rounds as companies scale. We take a collaborative approach, working closely with founders to maximize their chances of success.</p>
-        </div>
-        <div class="two-col-visual" style="color: var(--gold); font-size: 4rem;">&#128202;</div>
-      </div>
+      <p>Understanding our investment criteria and what makes a company a good fit for Central Illinois Angels.</p>
     </div>
   </section>
 
   <!-- Industry Focus -->
-  <section class="section section-light">
-    <div class="container">
-      <div class="section-header">
-        <span class="label">Target Sectors</span>
-        <h2>Industry Focus</h2>
-        <p>We invest across multiple sectors where Central Illinois has competitive advantages and our members have deep expertise.</p>
-      </div>
-      <div class="focus-grid">
-        <div class="focus-card">
-          <div class="icon">&#128187;</div>
-          <h3>Technology</h3>
-          <p>SaaS, enterprise software, AI/ML, cybersecurity, and data analytics platforms.</p>
-        </div>
-        <div class="focus-card">
-          <div class="icon">&#129658;</div>
-          <h3>Healthcare</h3>
-          <p>Digital health, medical devices, telehealth, and healthcare IT solutions.</p>
-        </div>
-        <div class="focus-card">
-          <div class="icon">&#9881;</div>
-          <h3>Manufacturing</h3>
-          <p>Advanced manufacturing, automation, 3D printing, and industrial IoT.</p>
-        </div>
-        <div class="focus-card">
-          <div class="icon">&#127806;</div>
-          <h3>Agriculture</h3>
-          <p>Precision agriculture, AgTech, food technology, and sustainable farming.</p>
-        </div>
-        <div class="focus-card">
-          <div class="icon">&#9889;</div>
-          <h3>Clean Energy</h3>
-          <p>Solar, wind, energy storage, grid technology, and energy efficiency.</p>
-        </div>
-        <div class="focus-card">
-          <div class="icon">&#127891;</div>
-          <h3>Education</h3>
-          <p>EdTech, workforce development, online learning, and training platforms.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Breakdown -->
   <section class="section section-white">
     <div class="container">
-      <div class="section-header">
-        <span class="label">Current Allocation</span>
-        <h2>Portfolio Breakdown</h2>
-        <p>A snapshot of how our investments are distributed across industries.</p>
-      </div>
-      <div class="breakdown-grid">
-        <div class="chart-placeholder"></div>
-        <div class="chart-legend">
-          <div class="legend-item">
-            <div class="legend-dot" style="background: var(--navy);"></div>
-            Technology
-            <span>28%</span>
+      <div style="max-width: 800px;">
+        <span class="label">Industry Focus</span>
+        <h2 style="font-size: 1.6rem; color: var(--navy); margin-bottom: 16px;">Industry Focus</h2>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 32px;">Currently, Central Illinois Angels does not have a specific industry focus. We have a very diverse membership that includes individuals with backgrounds in a number of industries and experience in numerous management levels and company stages.</p>
+
+        <h3 style="font-size: 1.1rem; color: var(--navy); margin-bottom: 20px;">Portfolio Breakdown (31+ Companies)</h3>
+        <div class="portfolio-bar-list">
+          <div class="portfolio-bar-item">
+            <div class="bar-label"><span>Industrial Products</span><span>50%</span></div>
+            <div class="portfolio-bar"><div class="portfolio-bar-fill" style="width: 50%;"></div></div>
           </div>
-          <div class="legend-item">
-            <div class="legend-dot" style="background: var(--red);"></div>
-            Healthcare
-            <span>20%</span>
+          <div class="portfolio-bar-item">
+            <div class="bar-label"><span>Healthcare</span><span>25%</span></div>
+            <div class="portfolio-bar"><div class="portfolio-bar-fill" style="width: 25%; background: var(--red);"></div></div>
           </div>
-          <div class="legend-item">
-            <div class="legend-dot" style="background: var(--gold);"></div>
-            Manufacturing
-            <span>18%</span>
+          <div class="portfolio-bar-item">
+            <div class="bar-label"><span>SaaS</span><span>10%</span></div>
+            <div class="portfolio-bar"><div class="portfolio-bar-fill" style="width: 10%; background: var(--gold);"></div></div>
           </div>
-          <div class="legend-item">
-            <div class="legend-dot" style="background: var(--navy-light);"></div>
-            Agriculture
-            <span>16%</span>
-          </div>
-          <div class="legend-item">
-            <div class="legend-dot" style="background: var(--gray-500);"></div>
-            Clean Energy
-            <span>10%</span>
-          </div>
-          <div class="legend-item">
-            <div class="legend-dot" style="background: var(--gray-300);"></div>
-            Education
-            <span>8%</span>
+          <div class="portfolio-bar-item">
+            <div class="bar-label"><span>Other</span><span>15%</span></div>
+            <div class="portfolio-bar"><div class="portfolio-bar-fill" style="width: 15%; background: var(--gray-500);"></div></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Investment Details -->
+  <!-- Investment Stage -->
   <section class="section section-light">
     <div class="container">
-      <div class="section-header">
-        <span class="label">Details</span>
-        <h2>Investment Parameters</h2>
-        <p>Key details about our investment approach and criteria.</p>
+      <div style="max-width: 800px;">
+        <h2 style="font-size: 1.6rem; color: var(--navy); margin-bottom: 16px;">Investment Stage</h2>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 16px;">Central Illinois Angels does not have a specific investment stage requirement. As is the case with most angel groups, we typically review seed and early stage (Series A) investments, but the stage of the investment is not a limiting factor.</p>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.8;">Typically, businesses seeking investment should have an identified and qualified lead investor.</p>
       </div>
-      <div class="invest-details">
-        <div class="invest-detail-card">
-          <h3>Investment Stage</h3>
-          <ul>
-            <li>Pre-Seed</li>
-            <li>Seed</li>
-            <li>Series A</li>
-            <li>Follow-on Rounds</li>
-          </ul>
-        </div>
-        <div class="invest-detail-card">
-          <h3>Entity Type</h3>
-          <ul>
-            <li>C-Corporation</li>
-            <li>S-Corporation</li>
-            <li>LLC</li>
-            <li>Benefit Corporation</li>
-          </ul>
-        </div>
-        <div class="invest-detail-card">
-          <h3>Investment Range</h3>
-          <ul>
-            <li>Minimum: $50,000</li>
-            <li>Typical: $100K - $250K</li>
-            <li>Maximum: $500,000</li>
-            <li>Follow-on: Case by Case</li>
-          </ul>
+    </div>
+  </section>
+
+  <!-- Type of Entity -->
+  <section class="section section-white">
+    <div class="container">
+      <div style="max-width: 800px;">
+        <h2 style="font-size: 1.6rem; color: var(--navy); margin-bottom: 16px;">Type of Entity</h2>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.8;">Central Illinois Angels prefers to invest in C-Corporations. This structure provides the most flexibility for equity investments and future funding rounds.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment Range -->
+  <section class="section section-light">
+    <div class="container">
+      <div style="max-width: 800px;">
+        <h2 style="font-size: 1.6rem; color: var(--navy); margin-bottom: 16px;">Investment Range</h2>
+        <p style="font-size: 1rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 32px;">We typically invest between $50,000 and $500,000 per company, often participating in larger funding rounds alongside other investors.</p>
+        <div class="investment-range-display">
+          <div class="range-item">
+            <h3>$50K</h3>
+            <p>Minimum</p>
+          </div>
+          <div class="range-item">
+            <h3>$500K</h3>
+            <p>Maximum</p>
+          </div>
         </div>
       </div>
     </div>
@@ -211,12 +139,18 @@
   <!-- CTA -->
   <section class="cta-section">
     <div class="container">
-      <h2>Does Your Company Fit?</h2>
+      <h2>Ready to Apply?</h2>
       <p>If your company aligns with our investment focus, we'd love to hear from you.</p>
       <div class="cta-buttons">
-        <a href="funding-application.html" class="btn btn-primary">Apply for Funding</a>
-        <a href="process-overview.html" class="btn btn-outline">View Our Process</a>
+        <a href="funding-application.html" class="btn btn-primary">Start Your Application</a>
       </div>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section class="section section-light" style="padding: 32px 0;">
+    <div class="container" style="text-align: center;">
+      <p style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Our Sponsors</p>
     </div>
   </section>
 
