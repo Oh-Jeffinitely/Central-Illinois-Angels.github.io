@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Investor Resources - Central Illinois Angels</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">CIA</div>
+        <div class="logo-text">
+          <span class="logo-top">Central Illinois</span>
+          <span class="logo-bottom">Angels</span>
+        </div>
+      </a>
+      <nav class="nav" id="mainNav">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="portfolio.html" class="nav-link">Portfolio</a>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link">Entrepreneurs</a>
+          <div class="dropdown-menu">
+            <a href="funding-application.html">Funding Application</a>
+            <a href="resources.html">Resources</a>
+            <a href="process-overview.html">Process Overview</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link">About Us</a>
+          <div class="dropdown-menu">
+            <a href="mission-vision.html">Mission &amp; Vision</a>
+            <a href="management.html">Management</a>
+            <a href="investment-focus.html">Investment Focus</a>
+          </div>
+        </div>
+        <div class="nav-dropdown">
+          <a href="#" class="nav-link active">Investors</a>
+          <div class="dropdown-menu">
+            <a href="membership.html">Membership</a>
+            <a href="investor-resources.html">Investor Resources</a>
+            <a href="member-login.html">Member Login</a>
+          </div>
+        </div>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+        <a href="funding-application.html" class="btn-apply-nav">Apply for Funding</a>
+      </nav>
+      <button class="hamburger" onclick="document.getElementById('mainNav').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero hero-inner">
+    <div class="hero-bg" style="background: linear-gradient(135deg, #1B2A4A 0%, #243656 100%);"></div>
+    <div class="hero-content">
+      <span class="hero-badge">Tools &amp; Information</span>
+      <h1>Investor Resources</h1>
+      <p>Resources and information for angel investors.</p>
+    </div>
+  </section>
+
+  <!-- Resources -->
+  <section class="section section-light">
+    <div class="container">
+      <div style="max-width: 800px; margin: 0 auto;">
+        <div class="investor-article">
+          <h3>The Angel Resource Institute (ARI)</h3>
+          <p>Angel Resource Institute (ARI) - formerly called the Angel Capital Education Foundation (ACEF) - is a charitable organization devoted to providing education, training, and information on best practices in the field of angel investing. Our work is built on a foundation of extensive data collection, research, and analysis efforts that validate and support our programs. The programs of ARI include educational workshops and seminars, research projects and reports, and information about angel investing for the general public.</p>
+        </div>
+        <div class="investor-article">
+          <h3>Angel Capital Association</h3>
+          <p>The Angel Capital Association is North America's professional alliance of angel groups. This fast-growing association brings together many of the 330 angel organizations in the United States and Canada to share best practices, network, and help develop data about the field of angel investing. Central Illinois Angels is a member of the ACA. Current Central Illinois Angels members can access the Members Only section of the ACA website.</p>
+        </div>
+        <div class="investor-article">
+          <h3>Wisconsin Angel Network</h3>
+          <p>The mission of the Wisconsin Angel Network (WAN) is to build early-stage capital capacity throughout Wisconsin, increasing the number and amount of equity investments in Wisconsin's entrepreneurs. WAN was founded in January 2005 as an umbrella organization providing services and resources to the early-stage investing community.</p>
+        </div>
+        <div class="investor-article">
+          <h3>Angel Investment Performance Project</h3>
+          <p>The Angel Investor Performance Project (AIPP) collected information from 539 angel investors who were members of eighty-six angel investor groups and who had experienced 1,137 exits from their angel investments. This data set, the largest-ever set of angel investor exits, utilized angel investing groups throughout North America to sample angels. Generalization of findings should focus exclusively on angel investors who operate in groups.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section class="section section-white" style="padding: 32px 0;">
+    <div class="container" style="text-align: center;">
+      <p style="font-size: 0.85rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Our Sponsors</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon">CIA</div>
+            <div class="logo-text">
+              <span class="logo-top">Central Illinois</span>
+              <span class="logo-bottom">Angels</span>
+            </div>
+          </div>
+          <p>A member-managed angel investment organization fueling innovation in Central Illinois.</p>
+          <div class="footer-address">801 W Main St, Suite A216<br>NEXT Innovation Center<br>Peoria, IL 61606</div>
+          <a href="mailto:info@centralillinoisangels.com" class="footer-email">info@centralillinoisangels.com</a>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="../index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="funding-application.html">Funding Application</a>
+          <a href="process-overview.html">Process Overview</a>
+          <a href="mission-vision.html">Vision &amp; Mission</a>
+          <a href="management.html">Management</a>
+          <a href="membership.html">Membership</a>
+          <a href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Central Illinois Angels. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.nav-dropdown > .nav-link').forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) { e.preventDefault(); this.parentElement.classList.toggle('open'); }
+      });
+    });
+  </script>
+</body>
+</html>
