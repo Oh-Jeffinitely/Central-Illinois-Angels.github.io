@@ -1663,6 +1663,412 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* ---------- Funding Application Page ---------- */
+.callout-box {
+  background: var(--light-bg);
+  border-left: 4px solid var(--gold);
+  padding: 20px 24px;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: 20px 0;
+  font-size: 0.92rem;
+  color: var(--gray-700);
+  line-height: 1.7;
+}
+
+.criteria-icon-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition);
+  text-align: center;
+}
+
+.criteria-icon-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.criteria-icon-card .criteria-num {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.criteria-icon-card h3 {
+  font-size: 1.05rem;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.criteria-icon-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ---------- Resources Page ---------- */
+.resource-type-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.resource-type-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  transition: var(--transition);
+}
+
+.resource-type-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.resource-type-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.badge-template { background: rgba(27,42,74,0.1); color: var(--navy); }
+.badge-guide { background: rgba(192,57,43,0.1); color: var(--red); }
+.badge-event { background: rgba(212,168,67,0.15); color: #9a7d2e; }
+.badge-network { background: rgba(39,174,96,0.1); color: #27ae60; }
+
+.resource-type-card h3 {
+  font-size: 1.05rem;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.resource-type-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.external-resource-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  transition: var(--transition);
+}
+
+.external-resource-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.external-resource-card h3 {
+  font-size: 1.05rem;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.external-resource-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.external-resource-card .visit-btn {
+  white-space: nowrap;
+  padding: 8px 18px;
+  background: var(--navy);
+  color: var(--white);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: var(--transition);
+  flex-shrink: 0;
+}
+
+.external-resource-card .visit-btn:hover {
+  background: var(--navy-dark);
+}
+
+.external-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ---------- Process Timeline v2 ---------- */
+.timeline-v2 {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline-v2::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--gray-300);
+}
+
+.timeline-v2-item {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 36px;
+  position: relative;
+}
+
+.timeline-v2-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  z-index: 2;
+  min-width: 80px;
+}
+
+.timeline-v2-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--navy);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 800;
+  box-shadow: var(--shadow-md);
+}
+
+.timeline-v2-week {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(212,168,67,0.12);
+  padding: 2px 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.timeline-v2-content {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  flex: 1;
+}
+
+.timeline-v2-content h3 {
+  font-size: 1.1rem;
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+
+.timeline-v2-content p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+/* What to Expect section */
+.what-to-expect {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+.what-to-expect-text p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.quick-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.quick-stat {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+}
+
+.quick-stat h3 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+
+.quick-stat p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+/* ---------- Vision & Mission Page ---------- */
+.vision-block {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vision-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  margin-bottom: 32px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--gray-200);
+  border-left: 4px solid var(--gold);
+}
+
+.vision-card .label {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--red);
+  margin-bottom: 12px;
+}
+
+.vision-card h2 {
+  display: none;
+}
+
+.vision-card p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.vision-card p:last-child {
+  margin-bottom: 0;
+}
+
+.value-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* ---------- Management Page v2 ---------- */
+.board-intro {
+  max-width: 800px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.board-intro p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.team-card-initial {
+  height: 180px;
+  background: linear-gradient(135deg, var(--navy-light), var(--navy));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-card-initial span {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: rgba(212,168,67,0.2);
+  color: var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.team-card-body .view-bio {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  opacity: 0.6;
+  transition: var(--transition);
+}
+
+.team-card:hover .view-bio {
+  opacity: 1;
+  color: var(--red);
+}
+
+/* ---------- Additional Responsive ---------- */
+@media (max-width: 1024px) {
+  .resource-type-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .resource-type-grid {
+    grid-template-columns: 1fr;
+  }
+  .what-to-expect {
+    grid-template-columns: 1fr;
+  }
+  .value-grid-4 {
+    grid-template-columns: 1fr;
+  }
+  .external-resource-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .timeline-v2-marker {
+    min-width: 60px;
+  }
+  .timeline-v2::before {
+    left: 30px;
+  }
+  .criteria-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 480px) {
   .hero {
     min-height: 400px;
